@@ -8,7 +8,7 @@ if(Azure){
   maml.mapOutputPort('eeframe')
 } 
 pairs(~ ., data = eeframe)
-g
+
 library(ggplot2)
 plotCols <- c("RelativeCompactness",
               "SurfaceArea",
